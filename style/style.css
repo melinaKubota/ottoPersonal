@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+/* @media (max-width: 767px){
+    header{
+        font-size: 18px;
+        width: 50vw
+    }
+} */
+
+*{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+header{
+    display: block;
+    align-items: center;
+    margin: 0;
+}
+
+
+img{
+    width: 50%;
+    align-items: center;   
+}
+.titulo{
+    padding: 1vh;
+}
+h2{
+    color: #fff535;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    margin: 1vh;
+}
+h3{
+    color: #bfbfbf;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    margin: 1vh;
+}
+.video {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+.video iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#btn{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn{
+    background-color: #2ea826;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 20px;
+    border: none;
+    width: 50vh;
+    margin: 0;
+}
+
+/* quando clica com o mouse */
+.btn:focus{
+    box-shadow: none;
+}
+p{
+    color:white;
+    font-family: 'Prompt', sans-serif;
+}
