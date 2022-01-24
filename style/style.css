@@ -34,14 +34,14 @@ h2{
     color: #fff535;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    font-size: 5vh;
+    font-size: 8vh;
     margin: 1vh;
 }
 h3{
     color: #bfbfbf;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    font-size: 5vh;
+    font-size: 8vh;
     margin: 1vh;
 }
 .video {
@@ -85,12 +85,16 @@ h3{
     width: 50vh;
     margin: 0;
 }
+.btnText{
+    text-decoration: none;
+    color:white;
+    
+}
 
 /* quando clica com o mouse */
 .btn:focus{
     box-shadow: none;
 }
 p{
-    color:white;
     font-family: 'Prompt', sans-serif;
 }
